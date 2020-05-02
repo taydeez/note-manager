@@ -12,6 +12,6 @@ export default new Router({
   routes: [
     { path: '/', name: 'home', component: Home },
     { path: '/add', name: 'add', component: AddNote },
-    { path: '/notes/:id', name: 'notes', component: Notes, params: true }
+    { path: '/notes/:id', name: 'note', component: Notes, params: true }
   ]
 })
